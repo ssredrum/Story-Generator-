@@ -1,0 +1,8 @@
+import random
+when = ['In 1970', 'yesterday', 'last summer', 'on monday','at holiday']
+who = ['Elizabeth 2', '', 'a monkey', 'a bird','a bottle']
+name = ['Jack', 'Sophie','Ruke', 'Jim', 'Monika']
+where = ['China','cinema', 'coffe house', 'supermarket', 'Ukraine']
+went = ['library', 'school','theater', 'swim club', 'flower shop']
+happened = ['found 100 dollars','met the friend', 'found a secret room', 'bought a bottle of water', 'wrote a note']
+print(random.choice(when) + ', ' + random.choice(who) + ' that lived in ' + random.choice(where) + ', went to the ' + random.choice(went) + ' and ' + random.choice(happened))
